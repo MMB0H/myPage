@@ -1,0 +1,111 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 10px;
+  padding: 0;
+  font-family: "Gill Sans", sans-serif;
+  color: #333333;
+  /* height: 100vh; */
+  font-size: 16px;
+  min-width: 320px;
+}
+
+header {
+  width: 100%;
+  border-bottom: 4mm ridge rgba(246, 178, 107, 0.6);
+  display: flex;
+}
+
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 75px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.mma {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-grow: 1;
+  align-items: center;
+  margin: 5px 170px 5px 170px;
+}
+
+.menu {
+  display: flex;
+  height: 70px;
+  width: 170px;
+  font-size: 30px;
+  margin: 0 30px 0 30px;
+  border: 2px solid #0069b5;
+  border-radius: 10px 100px / 120px;
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #b2d2e8;
+}
+
+.menu:hover {
+  cursor: pointer;
+  background-color: #d2e8b2;
+}
+
+menu {
+  display: flex;
+}
+
+.side-bar {
+  height: 100%;
+  padding: 20px 10px 20px 40px;
+  border-right: 4mm ridge rgba(246, 178, 107, 0.6);
+  width: 20%;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.aside-bar {
+  margin-top: 30px;
+}
+
+.aside-table {
+  padding-left: 50px;
+}
+
+.table-head {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 30px;
+  font-style: italic;
+}
+
+.table-body {
+  text-align: middle;
+  font-size: 26px;
+  font-weight: lighter;
+  padding-bottom: 20px;
+  font-style: oblique;
+}
+
+.table-body:hover {
+  cursor: pointer;
+  color: #32b8ec;
+}
+
+menu {
+  display: flex;
+}
+.pixel .plush {
+  width: 40%;
+  flex-direction: row;
+  margin: 10px;
+}
