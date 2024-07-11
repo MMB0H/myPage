@@ -16,7 +16,17 @@ body {
 header {
   width: 100%;
   border-bottom: 4mm ridge rgba(246, 178, 107, 0.6);
+}
+
+.greeting {
   display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.greeting h1 {
+  text-align: center;
+  flex-grow: 1;
 }
 
 .top-menu {
@@ -25,7 +35,7 @@ header {
 }
 
 .logo {
-  height: 75px;
+  height: 100px;
   margin-left: 10px;
   border-radius: 50%;
 }
@@ -33,10 +43,10 @@ header {
 .mma {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-grow: 1;
-  align-items: center;
-  margin: 5px 170px 5px 170px;
+  align-items: end;
+  margin: 5px 10px 5px 10px;
 }
 
 .menu {
@@ -65,26 +75,27 @@ menu {
 
 .side-bar {
   height: 100%;
-  padding: 20px 10px 20px 40px;
-  border-right: 4mm ridge rgba(246, 178, 107, 0.6);
+  /* padding: 20px 10px 20px 40px; */
   width: 20%;
   font-size: 36px;
   font-weight: bolder;
+  border-left: 4mm ridge rgba(246, 178, 107, 0.6);
+  border-right: 4mm ridge rgba(246, 178, 107, 0.6);
 }
 
 .aside-bar {
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 .aside-table {
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 
 .table-head {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
   font-style: italic;
 }
 
@@ -92,7 +103,7 @@ menu {
   text-align: middle;
   font-size: 26px;
   font-weight: lighter;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   font-style: oblique;
 }
 
@@ -104,6 +115,11 @@ menu {
 menu {
   display: flex;
 }
+
+.context {
+  border-left: 4mm ridge rgba(246, 178, 107, 0.6);
+}
+
 .pixel .plush {
   width: 40%;
   flex-direction: row;
