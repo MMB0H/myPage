@@ -35,7 +35,7 @@ header {
 }
 
 .logo {
-  height: 100px;
+  /* height: 100px; */
   margin-left: 10px;
   border-radius: 50%;
 }
@@ -159,6 +159,10 @@ menu {
   margin: 10px;
 }
 
+.plush3 {
+  text-align: end;
+}
+
 .catbig {
   width: 182px;
   margin: 10px;
@@ -167,4 +171,15 @@ menu {
 .cat2 {
   width: 150px;
   margin: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.social {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-weight: 600;
 }
